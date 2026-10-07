@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="output">0</div>
+    <input type="text" id="input">
+        <div class="characters">
+                <div onclick='appendtodisplay("1")' class="numbers">1</div>
+                <div  onclick='appendtodisplay("4")'  class="numbers">4</div>
+                <div  onclick='appendtodisplay("7")' class="numbers">7</div>
+                <div  onclick='appendtodisplay("+")' class="operators">+</div>
+                <div  onclick='appendtodisplay("2")' class="numbers">2</div>
+                <div  onclick='appendtodisplay("5")' class="numbers">5</div>
+                <div  onclick='appendtodisplay("8")' class="numbers">8</div>
+                <div  onclick='appendtodisplay("-")' class="operators">-</div>
+                <div  onclick='appendtodisplay("3")' class="numbers">3</div>
+                <div  onclick='appendtodisplay("6")' class="numbers">6</div>
+                <div  onclick='appendtodisplay("9")' class="numbers">9</div>
+                <div  onclick='appendtodisplay("*")' class="operators">*</div>
+                <div  onclick='appendtodisplay(".")' class="numbers">.</div>
+                <div  onclick='appendtodisplay("0")' class="numbers">0</div>
+                <div  onclick='calculate()' class="rouge">=</div>
+                <div  onclick='appendtodisplay("/")'  class="operators">/</div>
+                <div onclick="clearDisplay()"  class="rouge">C</div>
+                <div onclick="deletedisplay()"  class="rouge">Del</div>
+            </div>
+        </div>
+    </div>
+    <script src="scropt.js"></script>
+</body>
+</html>

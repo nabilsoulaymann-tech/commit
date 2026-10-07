@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../classwork 23"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "calculator-main"
+	}
+}
